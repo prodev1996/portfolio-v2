@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-slate-800 dark:bg-slate-950 dark:text-slate-100; }
+
+.container-page { @apply max-w-6xl mx-auto px-4; }
+.section { @apply py-12 md:py-16; }
+.h2 { @apply text-2xl md:text-3xl font-bold tracking-tight; }
+.card { @apply bg-white dark:bg-slate-900/60 rounded-xl p-5 shadow-soft border border-slate-100/60 dark:border-slate-800; }
+.badge { @apply rounded-full bg-brand-100 text-brand-800 px-3 py-1 text-xs font-semibold; }
+.btn { @apply inline-flex items-center justify-center rounded-lg font-semibold transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500; }
+.btn-primary { @apply bg-brand-600 text-white hover:bg-brand-700; }
+.btn-outline { @apply border-2 border-brand-600 text-brand-700 hover:bg-brand-50 dark:text-brand-300; }
+.nav-link { @apply px-3 py-2 rounded-md text-sm font-medium hover:bg-brand-50 hover:text-brand-700 dark:hover:bg-slate-800; }
+.active-link { @apply text-brand-700 dark:text-brand-300; }
+
+.progress { position: fixed; top: 0; left: 0; height: 3px; width: 100%; transform-origin: 0% 50%;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4); z-index: 60; }
