@@ -1,7 +1,7 @@
 // src/app/layout.jsx
 
 export const metadata = {
-  metadataBase: new URL('https://your-domain.com'), // TODO: set real domain when live
+  metadataBase: new URL('https://portfolio-v2-o7aqq227l-rajiv-bhandaris-projects.vercel.app'), // TODO: set real domain when live
   title: { default: 'Rajiv Bhandari — Portfolio', template: '%s | Rajiv Bhandari' },
   description:
     'IT Support Engineer & Full-Stack Developer (Windows/AD/M365 • React/Django/MySQL) based in Adelaide, SA.',
@@ -24,7 +24,7 @@ export const metadata = {
     title: 'Rajiv Bhandari — Portfolio',
     description:
       'IT Support Engineer & Full-Stack Developer in Adelaide. Windows/AD/M365 + React/Django.',
-    url: 'https://your-domain.com', // TODO
+    url: 'https://portfolio-v2-o7aqq227l-rajiv-bhandaris-projects.vercel.app',
     siteName: 'Rajiv Bhandari',
     images: [{ url: '/og/og-image.png', width: 1200, height: 630, alt: 'Rajiv Bhandari Portfolio' }],
     locale: 'en_AU',
@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
     name: 'Rajiv Bhandari',
     jobTitle: 'IT Support Engineer / Full-Stack Developer',
     email: `mailto:${email}`,
-    url: 'https://your-domain.com', // TODO
+    url: 'https://portfolio-v2-o7aqq227l-rajiv-bhandaris-projects.vercel.app', 
     sameAs: [linkedin],
     address: { '@type': 'PostalAddress', addressLocality: 'Adelaide', addressRegion: 'SA', addressCountry: 'AU' },
   };
